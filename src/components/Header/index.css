@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10px;
+  align-items: center;
+  border: 1px solid #d7dfe9;
+  margin: 5px;
+}
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header-logo {
+  width: 220px;
+  padding-left: 30px;
+}
+.options-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: none;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+}
+.link {
+  margin-right: 15px;
+  margin-left: 20px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+}
+.option-button {
+  background-color: #0b69ff;
+  width: 65px;
+  height: 30px;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
